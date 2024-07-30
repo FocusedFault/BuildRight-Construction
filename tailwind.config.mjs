@@ -27,7 +27,11 @@ export default {
           "100%": { opacity: 1, transform: "translate(0)" },
         },
         "move-in-bottom": {
-          "0%": { opacity: 0, transform: "translateY(30px)" },
+          "0%": { opacity: 0, transform: "translateY(60px)" },
+          "100%": { opacity: 1, transform: "translate(0)" },
+        },
+        "move-in-top": {
+          "0%": { opacity: 0, transform: "translateY(-60px)" },
           "100%": { opacity: 1, transform: "translate(0)" },
         },
       },
@@ -35,6 +39,7 @@ export default {
         "move-in-left": "move-in-left 1s ease-out",
         "move-in-right": "move-in-right 1s ease-out",
         "move-in-bottom": "move-in-bottom 0.5s ease-out 0.75s",
+        "move-in-top": "move-in-top 0.5s ease-out 0.75s",
       },
     },
   },
